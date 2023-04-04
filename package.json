@@ -1,0 +1,17 @@
+{
+  "name": "cypress-run",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cypress open",
+    "dev-chrome": "cypress open --browser chrome --e2e",
+    "run-cli:headless": "cypress run --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.9.0"
+  }
+}
